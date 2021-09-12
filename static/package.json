@@ -16,7 +16,7 @@
     "@babel/plugin-transform-typescript": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
     "expand-tilde": "^2.0.2",
-    "fix-path": "^2.1.0",
+    "fix-path": "^4.0.0",
     "mem": "^6.0.0",
     "metro": "^0.57.0",
     "mkdirp": "^0.5.1",
