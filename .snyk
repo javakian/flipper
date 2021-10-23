@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - eslint-plugin-flowtype > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - eslint > table > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - '@jest-runner/electron > jest-runtime > jest-snapshot > @babel/types > lodash':
+        patched: '2021-10-23T01:54:16.584Z'
+    - '@jest-runner/electron > jest-runner > jest-jasmine2 > @babel/traverse > lodash':
+        patched: '2021-10-23T01:54:16.584Z'
+    - '@jest-runner/electron > @jest-runner/rpc > jscodeshift > @babel/register > lodash':
+        patched: '2021-10-23T01:54:16.584Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-23T01:54:16.584Z'
+    - '@jest-runner/electron > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-23T01:54:16.584Z'
+    - '@jest-runner/electron > @jest-runner/rpc > jscodeshift > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2021-10-23T01:54:16.584Z'
+    - '@jest-runner/electron > @jest-runner/rpc > jscodeshift > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2021-10-23T01:54:16.584Z'
+    - '@jest-runner/electron > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2021-10-23T01:54:16.584Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-23T01:54:16.584Z'

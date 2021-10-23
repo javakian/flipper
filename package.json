@@ -184,7 +184,8 @@
     "xdg-basedir": "^4.0.0",
     "xml2js": "^0.4.19",
     "yargs": "^15.0.1",
-    "yazl": "^2.5.1"
+    "yazl": "^2.5.1",
+    "@snyk/protect": "latest"
   },
   "greenkeeper": {
     "ignore": [
@@ -208,9 +209,12 @@
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand",
     "test-electron": "jest --testPathPattern=\"electron\\.(js|tsx)$\" --testEnvironment=@jest-runner/electron/environment --runner=@jest-runner/electron --no-cache",
     "test-with-device": "USE_ELECTRON_STUBS=1 jest --testPathPattern=\"device\\.(js|tsx)$\" --detectOpenHandles --no-cache",
-    "lint": "eslint . --ext .js,.tsx && flow check && tsc --noemit"
+    "lint": "eslint . --ext .js,.tsx && flow check && tsc --noemit",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "optionalDependencies": {
     "7zip-bin-mac": "^1.0.1"
-  }
+  },
+  "snyk": true
 }
