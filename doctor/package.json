@@ -15,21 +15,22 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
-    "jest": "^24.9.0",
+    "jest": "^25.0.0",
     "prettier": "^1.19.1",
-    "ts-jest": "^24.1.0",
+    "ts-jest": "^25.3.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.2"
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
+    "prepare": "yarn run snyk-protect && npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "test": "jest --config jestconfig.json --passWithNoTests",
     "lint": "eslint -c ../../sonar/.eslintrc.js src/**/* --ext .js,.ts  && tsc --noemit",
     "fix": "eslint -c ../../sonar/.eslintrc.js src/**/* --fix --ext .js,.ts",
-    "run": "npm run build && node lib/cli.js"
+    "run": "npm run build && node lib/cli.js",
+    "snyk-protect": "snyk-protect"
   },
   "files": [
     "lib/**/*"
@@ -41,6 +42,8 @@
   "author": "Facebook, Inc",
   "dependencies": {
     "@types/node": "^12.12.12",
-    "envinfo": "^7.4.0"
-  }
+    "envinfo": "^7.4.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
