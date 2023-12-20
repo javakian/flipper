@@ -12,11 +12,11 @@
     }
   },
   "devDependencies": {
-    "jest": "^24.7.1"
+    "jest": "^25.0.0"
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-env": "^7.22.0",
     "@babel/preset-flow": "^7.0.0",
     "babel-jest": "^24.8.0",
     "canonical-json": "^0.0.4",
