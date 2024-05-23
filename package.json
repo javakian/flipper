@@ -60,7 +60,7 @@
     "clearMocks": true
   },
   "devDependencies": {
-    "@jest-runner/electron": "^2.0.1",
+    "@jest-runner/electron": "^3.0.0",
     "@testing-library/react": "^9.3.0",
     "@types/algoliasearch": "^3.30.19",
     "@types/deep-equal": "^1.0.1",
@@ -98,7 +98,7 @@
     "eslint-plugin-relay": "^1.4.1",
     "flow-bin": "0.113.0",
     "glob": "^7.1.2",
-    "jest": "^24.7.1",
+    "jest": "^25.0.0",
     "jest-fetch-mock": "^2.1.0",
     "prettier": "^1.19.1",
     "react-async": "^10.0.0",
@@ -151,7 +151,7 @@
     "open": "^7.0.0",
     "openssl-wrapper": "^0.3.4",
     "p-map": "^3.0.0",
-    "patch-package": "^6.2.0",
+    "patch-package": "^6.4.6",
     "pkg": "^4.4.1",
     "promise-retry": "^1.1.1",
     "promisify-child-process": "^3.1.3",
