@@ -5,13 +5,21 @@
   "icon": "internet",
   "main": "index.js",
   "license": "MIT",
-  "keywords": ["flipper-plugin"],
+  "keywords": [
+    "flipper-plugin"
+  ],
   "dependencies": {
     "sql-formatter": "^2.3.3",
-    "dateformat": "^3.0.3"
+    "dateformat": "^3.0.3",
+    "@snyk/protect": "latest"
   },
   "bugs": {
     "email": "oncall+flipper@xmail.facebook.com",
     "url": "https://fb.workplace.com/groups/flippersupport/"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
