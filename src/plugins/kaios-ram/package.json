@@ -10,7 +10,7 @@
     "url": "https://fb.workplace.com/groups/wa.kaios/"
   },
   "dependencies": {
-    "recharts": "1.7.1"
+    "recharts": "2.12.1"
   },
   "devDependencies": {
     "@types/recharts": "1.7.1"
