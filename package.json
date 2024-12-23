@@ -132,7 +132,7 @@
     "dashify": "^2.0.0",
     "deep-equal": "^1.0.1",
     "detect-port": "^1.1.1",
-    "electron-devtools-installer": "^2.2.0",
+    "electron-devtools-installer": "^4.0.0",
     "emotion": "^10.0.23",
     "expand-tilde": "^2.0.2",
     "express": "^4.15.2",
