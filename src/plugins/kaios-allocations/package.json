@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "firefox-client": "0.3.0",
-    "promisify-child-process": "3.1.1"
+    "promisify-child-process": "4.0.1"
   }
 }
