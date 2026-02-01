@@ -18,7 +18,7 @@
     "expand-tilde": "^2.0.2",
     "fix-path": "^2.1.0",
     "mem": "^6.0.0",
-    "metro": "^0.57.0",
+    "metro": "^0.60.0",
     "mkdirp": "^0.5.1",
     "p-map": "^3.0.0",
     "recursive-readdir": "2.2.2",
